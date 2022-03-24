@@ -1,0 +1,2 @@
+${HOME}/.local/xPacks/@xpack-dev-tools/qemu-arm/6.2.0-2.1/.content/bin/qemu-system-gnuarmeclipse --board STM32F4-Discovery \
+--mcu STM32F407VG --gdb tcp::1234 -d unimp,guest_errors  --image  ./cmake-build-debug/test_embedded_project.elf
